@@ -1,0 +1,19 @@
+{
+  "name": "automated-group-bot",
+  "version": "1.0.0",
+  "description": "A simple, lightweight group wall auto-moderator which checks posts periodically and deletes them automatically - this uses your .ROBLOXSECURITY cookie for authentication.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "swc src -d dist --config-file config.swcrc"
+  },
+  "keywords": [],
+  "author": "eSkuzi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@types/node-fetch": "^2.6.4"
+  }
+}
